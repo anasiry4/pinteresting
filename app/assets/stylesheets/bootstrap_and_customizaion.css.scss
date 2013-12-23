@@ -1,5 +1,16 @@
-$navbar-inverse-bg: #2980b9;
-$navbar-inverse-link-color: #ecf0f1;
-$navbar-inverse-link-hover-color: #fff;
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+$font-faily-sans-serif: "lato", 'helvetica neue', helvetica, arial, sans-serif;
+
+$navbar-default-bg: #2980b9;
+$navbar-default-link-color: #ecf0f1;
+$navbar-default-link-hover-color: #fff;
 $body-bg: #3498db;
+
+
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
