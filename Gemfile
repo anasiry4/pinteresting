@@ -27,6 +27,9 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
+#devise gem for user authentification
+gem 'devise', "~> 3.2.2"
+
 # database for production
 group :production do 
 	gem 'pg'
