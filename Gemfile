@@ -30,6 +30,8 @@ end
 #devise gem for user authentification
 gem 'devise', "~> 3.2.2"
 
+gem 'paperclip', '~>3.0'
+
 # database for production
 group :production do 
 	gem 'pg'
