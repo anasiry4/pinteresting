@@ -81,4 +81,15 @@ Pinteresting::Application.configure do
   #not to set this to actual host
   # Required for Heroku
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+
+  # saves files to amazon s3 for heroku from paperclip
+config.paperclip_defaults = {
+  :storage => :s3,
+  :s3_credentials => {
+    :bucket => ENV['S3_BUCKET_NAME'],
+    :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+    :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
+  }
+}
 end

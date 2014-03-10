@@ -31,6 +31,7 @@ end
 gem 'devise', "~> 3.2.2"
 
 gem 'paperclip', '~>3.0'
+gem 'aws-sdk', '~>1.34'
 
 # database for production
 group :production do 
