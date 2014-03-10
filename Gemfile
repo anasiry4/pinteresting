@@ -32,6 +32,8 @@ gem 'devise', "~> 3.2.2"
 
 gem 'paperclip', '~>3.0'
 gem 'aws-sdk', '~>1.34'
+gem 'masonry-rails', '~>0.2.0'
+gem 'jquery-turbolinks'
 
 # database for production
 group :production do 
