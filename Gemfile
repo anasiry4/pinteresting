@@ -21,6 +21,8 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
 
 # database for Active Record for development and test
 group :development, :test do
